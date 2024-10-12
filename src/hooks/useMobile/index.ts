@@ -7,7 +7,9 @@ interface MobileProps {
 }
 
 const useMobile = ({ size = 800, onMobile, onDesktop }: MobileProps) => {
-  const [isMobile, setMobile] = useState(window.innerWidth <= size ? true : false);
+  const [isMobile, setMobile] = useState(
+    window.innerWidth <= size ? true : false
+  );
 
   const screenSizeUpdate = () => {
     if (window.innerWidth <= size) {

@@ -12,6 +12,7 @@ const JoinCommunity = () => {
           className="drop-shadow-xl order-1 lg:order-2 mx-auto mb-10 lg:mx-0"
         />
       </div>{" "}
+      hamsaikemefuna@gmail.com
       <aside
         className="text-center lg:text-left lg:max-w-[478px] flex flex-col gap-4"
         data-aos="fade-left"

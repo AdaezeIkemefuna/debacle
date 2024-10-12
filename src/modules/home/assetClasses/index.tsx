@@ -93,7 +93,7 @@ const AssetClasses = () => {
 
               <Button
                 variant="transparent"
-                className="!px-0 py-3 mx-auto text-[14.7px] whitespace-nowrap"
+                className="!px-0 py-3 mx-auto text-[14px] whitespace-nowrap"
                 icon
                 onClick={() => navigate(asset.link)}
               >

@@ -57,7 +57,7 @@ const AssetClasses = () => {
         {assetLinks.map((asset) => (
           <div
             key={asset.color}
-            className="sm:w-[300px] h-[515px] border-2 border-[#919FB533] rounded-md overflow-hidden text-center"
+            className="sm:w-[350px] h-[515px] border-2 border-[#919FB533] rounded-md overflow-hidden text-center"
             data-aos="flip-left"
           >
             <p
@@ -93,7 +93,7 @@ const AssetClasses = () => {
 
               <Button
                 variant="transparent"
-                className="!px-0 py-3 mx-auto text-[15px]"
+                className="!px-0 py-3 mx-auto text-[15px] whitespace-nowrap"
                 icon
                 onClick={() => navigate(asset.link)}
               >
